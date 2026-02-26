@@ -65,7 +65,7 @@ plt.figure(figsize=(14, 6))
 plt.plot(y_test.values[:168], label='Actual Electricity Demand', color='blue', linewidth=2)
 plt.plot(predictions[:168], label='Model Predicted Demand', color='orange', linestyle='dashed', linewidth=2)
 
-plt.title('Machine Learning Demand Forecasting: Actual vs Predicted (June 2024)', fontsize=16)
+plt.title('Machine Learning Demand Forecasting: Actual vs Predicted (June 2025)', fontsize=16)
 plt.xlabel('Hours', fontsize=12)
 plt.ylabel('Demand (MW)', fontsize=12)
 plt.legend(fontsize=12)
@@ -74,4 +74,4 @@ plt.tight_layout()
 
 # Save as an image file instead of opening a popup
 plt.savefig('demand_forecast_graph.png')
-print("✅ Success! Open the file 'demand_forecast_graph.png' in your folder to see the graph.")
+print(" Success! Open the file 'demand_forecast_graph.png' ")
