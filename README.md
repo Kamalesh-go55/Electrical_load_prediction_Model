@@ -1,4 +1,5 @@
 **Electricity Demand Forecasting using Random Forest**
+
 Project Overview
 
 This project implements a machine learning pipeline to predict hourly electricity demand. By analyzing historical load data alongside solar and wind generation proxies, the model identifies daily and weekly consumption patterns to provide accurate forecasts.
