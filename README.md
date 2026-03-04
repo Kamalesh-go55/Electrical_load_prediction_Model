@@ -24,6 +24,9 @@ demo.xlsx: Historical dataset (Hourly timestamps, Solar, Wind, Demand).
 
 demand_forecast_graph.png: Output visualization.
 
+//// The data used to train the model is given in the file named demo.xlsx, for your reference it is added in the repository. The data is processed and cleaned and they are real values obtained from 
+Power Grid Corporation of India ////
+
 
 **Future Improvements**
 External Factors: Integrate Temperature and Humidity data via weather APIs.
